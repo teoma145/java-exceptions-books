@@ -38,7 +38,7 @@ public class Libri {
     }
     public void setPagine(int pagine) {
         if(pagine < 0){
-            throw new IllegalArgumentException("nome vuoto");
+            throw new IllegalArgumentException("pagine inferiori a 0");
         }
         this.pagine=pagine;
     }
