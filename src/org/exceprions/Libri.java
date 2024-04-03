@@ -9,7 +9,7 @@ public class Libri {
         if (nome == null || nome.isEmpty()){
             throw new IllegalArgumentException("campo nome vuoto");
         }
-        if (pagine <= 0){
+        if (pagine <= 0 ){
             throw new IllegalArgumentException("deve avere almeno una pagina");
         }
         if (autore == null || autore.isEmpty()){
